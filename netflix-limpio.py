@@ -8,7 +8,7 @@ pd.set_option('display.max_rows', None)
 pd.set_option('Display.width', None)
 
 # llamo a mis datos y creo mi diccionario
-content_data = 'C:/Users/nicob/Desktop/Python/Netflix/netflix-report/CONTENT_INTERACTION/ViewingActivity.csv'
+content_data = 'activity.csv'
 df = pd.read_csv(content_data)
 ddias = {'Dias': ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo'],
          'id_dias': [0, 1, 2, 3, 4, 5, 6]
